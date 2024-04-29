@@ -2,7 +2,7 @@ import streamlit as st
 
 
 
-st.set_page_config(page_title="Club Union Munro", page_icon="scr/fondo.jpg", layout="wide")
+st.set_page_config(page_title="Club Union Munro", page_icon="scr/logo-union.jpg", layout="wide")
            
 def local_css(file_name):
     with open(file_name) as f:
@@ -24,7 +24,7 @@ def main():
     st.markdown(
         """
         <div style="display: flex; justify-content: center;">
-       <iframe title="DatasetMockup" width="1240" height="1000" src="https://app.powerbi.com/view?r=eyJrIjoiZjRmOWFiOWUtZmE4Yy00MDcwLTllNjktNjE5NTcwZDY3OTJlIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9&pageName=ReportSection10f0c58045468d53ab10" frameborder="0" allowFullScreen="true"></iframe></div>
+       <iframe title="DatasetMockup" width="1240" height="1000" src="https://app.powerbi.com/view?r=eyJrIjoiNzdiNGI2OTgtM2FlNy00NWFiLTg1ODYtN2IyYjcwZGFiMjNmIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9&pageName=ReportSectionbf43e1f801cf877ccb9b" frameborder="0" allowFullScreen="true"></iframe></div>
         """,
         unsafe_allow_html=True
     )
