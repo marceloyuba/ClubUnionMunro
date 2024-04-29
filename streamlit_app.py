@@ -9,12 +9,12 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-
+st.title("")
 
 titulo_css = """
     <style>
         .titulo-container {
-            padding-top: 10px; /* Ajusta este valor según sea necesario */
+            padding-top: 0px; /* Ajusta este valor según sea necesario */
         }
     </style>
 """
