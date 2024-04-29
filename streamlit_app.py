@@ -17,7 +17,7 @@ with st.container():
     st.title("")
 with st.container():
     
-    st.image("scr/logo-union.jpg", use_column_width=False)
+   
     st.title("")
     st.title("Analisis estadistico Handball 2024 - Club Union Munro")
   
@@ -36,13 +36,13 @@ def main():
 if __name__ == "__main__":
     main()
 st.title("")
-st.image("scr/pelota.jpg", use_column_width=True)
+
     
 page_bg_img = f"""
 <style>
 
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/mockupStreamlit/blob/main/scr/fondoTaxi.png?raw=true");
+background-image: url("https://github.com/marceloyuba/ClubUnionMunro/blob/main/scr/fondoTaxi.png?raw=true");
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: fixed;
