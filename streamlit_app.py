@@ -15,6 +15,10 @@ with st.container():
     st.markdown('<style>h2 {color: black;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: black;}, font=</style>', unsafe_allow_html=True)
     st.title("")
+with st.container():
+    
+    st.image("scr/logo-union.jpg", use_column_width=False, align='left')
+    st.title("")
     st.title("Analisis estadistico Handball 2024 - Club Union Munro")
   
 
@@ -31,12 +35,14 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+st.title("")
+st.image("scr/logo.png", use_column_width=False, align='right')
+    
 page_bg_img = f"""
 <style>
 
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/mockupStreamlit/blob/main/scr/fondoTaxi.jpg?raw=true");
+background-image: url("https://github.com/marceloyuba/mockupStreamlit/blob/main/scr/fondoTaxi.png?raw=true");
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: fixed;
