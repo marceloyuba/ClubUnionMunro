@@ -11,12 +11,17 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-with st.container():
-    
-   
-    st.title("")
-    st.markdown("<h1 style='text-align: center;'>Análisis estadístico Handball 2024 - Club Unión Munro</h1>", unsafe_allow_html=True)
+titulo_css = """
+    <style>
+        .titulo-container {
+            padding-top: 10px; /* Ajusta este valor según sea necesario */
+        }
+    </style>
+"""
 
+# Título alineado al centro y con margen superior
+st.markdown(titulo_css, unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Análisis estadístico Handball 2024 - Club Unión Munro</h1>", unsafe_allow_html=True)
   
 
 def main():
