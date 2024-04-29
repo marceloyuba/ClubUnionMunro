@@ -23,7 +23,7 @@ titulo_css = """
 st.markdown(titulo_css, unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>Análisis estadístico Handball 2024 - Club Unión Munro</h1>", unsafe_allow_html=True)
 st.title("")  
-st.title("")  
+
 def main():
     st.markdown("<h1 style='text-align: center;'>Tablero de estadisticas</h1>", unsafe_allow_html=True)
     st.markdown(
