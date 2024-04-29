@@ -19,11 +19,12 @@ with st.container():
     
    
     st.title("")
-    st.title("Analisis estadistico Handball 2024 - Club Union Munro")
+    st.markdown("<h1 style='text-align: center;'>Análisis estadístico Handball 2024 - Club Unión Munro</h1>", unsafe_allow_html=True)
+
   
 
 def main():
-    st.title("Dashboard del PI2 en forma de muestra")
+    st.markdown("<h1 style='text-align: center;'>Tablero de estadisticas</h1>", unsafe_allow_html=True)
     st.markdown(
         """
         <div style="display: flex; justify-content: center;">
