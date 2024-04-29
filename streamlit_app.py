@@ -9,7 +9,7 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-st.title("")
+
 
 titulo_css = """
     <style>
@@ -22,7 +22,7 @@ titulo_css = """
 # Título alineado al centro y con margen superior
 st.markdown(titulo_css, unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'>Análisis estadístico Handball 2024 - Club Unión Munro</h1>", unsafe_allow_html=True)
-  
+st.title("")  
 
 def main():
     st.markdown("<h1 style='text-align: center;'>Tablero de estadisticas</h1>", unsafe_allow_html=True)
