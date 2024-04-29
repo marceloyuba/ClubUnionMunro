@@ -9,12 +9,12 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
         
 local_css("style/style.css")
-with st.container():
-    st.markdown('<style>h4{color: black;}, font=</style>', unsafe_allow_html=True)    
-    st.markdown('<style>h3 {color: black;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h2 {color: black;}, font=</style>', unsafe_allow_html=True)
-    st.markdown('<style>h1 {color: black;}, font=</style>', unsafe_allow_html=True)
-    st.title("")
+
+st.markdown('<style>h4{color: black;}, font=</style>', unsafe_allow_html=True)    
+st.markdown('<style>h3 {color: black;}, font=</style>', unsafe_allow_html=True)
+st.markdown('<style>h2 {color: black;}, font=</style>', unsafe_allow_html=True)
+st.markdown('<style>h1 {color: black;}, font=</style>', unsafe_allow_html=True)
+st.title("")
 with st.container():
     
    
