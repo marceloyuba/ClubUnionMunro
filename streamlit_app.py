@@ -10,11 +10,7 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-st.markdown('<style>h4{color: black;}, font=</style>', unsafe_allow_html=True)    
-st.markdown('<style>h3 {color: black;}, font=</style>', unsafe_allow_html=True)
-st.markdown('<style>h2 {color: black;}, font=</style>', unsafe_allow_html=True)
-st.markdown('<style>h1 {color: black;}, font=</style>', unsafe_allow_html=True)
-st.title("")
+
 with st.container():
     
    
@@ -54,3 +50,7 @@ background-size: cover;
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+st.markdown('<style>h4{color: black;}, font=</style>', unsafe_allow_html=True)    
+st.markdown('<style>h3 {color: black;}, font=</style>', unsafe_allow_html=True)
+st.markdown('<style>h2 {color: black;}, font=</style>', unsafe_allow_html=True)
+st.markdown('<style>h1 {color: black;}, font=</style>', unsafe_allow_html=True)
