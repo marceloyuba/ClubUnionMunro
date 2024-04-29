@@ -17,7 +17,7 @@ with st.container():
     st.title("")
 with st.container():
     
-    st.image("scr/logo-union.jpg", use_column_width=False, align='left')
+    st.image("scr/logo-union.jpg", use_column_width=False)
     st.title("")
     st.title("Analisis estadistico Handball 2024 - Club Union Munro")
   
@@ -36,7 +36,7 @@ def main():
 if __name__ == "__main__":
     main()
 st.title("")
-st.image("scr/logo.png", use_column_width=False, align='right')
+st.image("scr/pelota.jpg", use_column_width=True)
     
 page_bg_img = f"""
 <style>
